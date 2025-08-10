@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Black Market Bazaar</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body {
+    background-color: #0a0a0f;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(32, 177, 177);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.02) 0px,
+      rgba(255,255,255,0.02) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+  }
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #00f6ff, 0 0 30px #0ff;
+    margin-top: 30px;
+    letter-spacing: 3px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+  }
+  .product {
+    border: 2px solid #ff00d4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #0ff;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px #ff00d4, 0 0 20px #ff00d4 inset;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    /* Fixed size */
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ff00d4, 0 0 40px #ff00d4 inset;
+  }
+  .product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .product h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff, 0 0 15px #00f6ff;
+  }
+  .description {
+    font-size: 1em;
+    color: #fff;
+    margin: 5px 0;
+  }
+  .price {
+    color: #ff00d4;
+    font-weight: bold;
+    margin: 8px 0;
+    text-shadow: 0 0 5px #ff00d4, 0 0 10px #ff00d4;
+  }
+  button {
+    font-family: 'Orbitron', sans-serif;
+    background: transparent;
+    border: 2px solid #0ff;
+    color: #0ff;
+    padding: 8px 18px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    text-shadow: 0 0 5px #0ff;
+    transition: all 0.2s;
+  }
+  button:hover {
+    background-color: #0ff;
+    color: #000;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  button.buy {
+    border-color: #ff00d4;
+    color: #ff00d4;
+    text-shadow: 0 0 5px #ff00d4;
+  }
+  button.buy:hover {
+    background-color: #ff00d4;
+    color: #000;
+    box-shadow: 0 0 10px #ff00d4, 0 0 20px #ff00d4;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #0ff;
+    position: relative;
+    bottom: 0;
+    width: 300%;
+  }
+</style>
+</head>
+<body>
+
+<h1>BLACK MARKET BAZAAR</h1>
+
+<div class="grid">
+  <div class="product">
+    <img src="21372.png" alt="Brain-Chip Upgrade">
+    <h2>Brain-Chip Upgrade</h2>
+    <div class="description">Enhance your cognitive abilities.</div>
+    <div class="price">$ENT 4,000</div>
+    <button>Haggle</button>
+    <button class="buy">Buy</button>
+  </div>
+
+  <div class="product">
+    <img src="21373.png" alt="Stolen Memories">
+    <h2>Stolen Memories</h2>
+    <div class="description">Experience someone else's life.</div>
+    <div class="price">$ENT 3,500</div>
+    <button>Haggle</button>
+    <button class="buy">Buy</button>
+  </div>
+
+  <div class="product">
+    <img src="21374.png" alt="Synthetic Emotions">
+    <h2>Synthetic Emotions</h2>
+    <div class="description">Feel what you desire.</div>
+    <div class="price">$ENT 2,200</div>
+    <button>Haggle</button>
+    <button class="buy">Buy</button>
+  </div>
+
+  <div class="product">
+    <img src="21378.png" alt="Weaponized Pet">
+    <h2>Weaponized Pet</h2>
+    <div class="description">Your loyal companion with a twist.</div>
+    <div class="price">$ENT 5,500</div>
+    <button>Haggle</button>
+    <button class="buy">Buy</button>
+  </div>
+
+  <div class="product">
+    <img src="21380.png" alt="Neural Overclock">
+    <h2>Neural Overclock</h2>
+    <div class="description">Boost reflexes beyond human limits.</div>
+    <div class="price">$ENT 4,800</div>
+    <button>Haggle</button>
+    <button class="buy">Buy</button>
+  </div>
+
+  <div class="product">
+    <img src="21381.png" alt="Temporal Pocket">
+    <h2>Temporal Pocket</h2>
+    <div class="description">Store objects outside time itself.</div>
+    <div class="price">$ENT 6,200</div>
+    <button>Haggle</button>
+    <button class="buy">Buy</button>
+  </div>
+
+
+<footer>
+  <p>&copy; 2023 Black Market Bazaar. All rights reserved.</p>
+</footer>
+
+<script>
+  // Haggle button response
+  document.querySelectorAll('.product button:not(.buy)').forEach(button => {
+    button.addEventListener('click', () => {
+      alert('💬 Let’s make a deal, stranger...');
+    });
+  });
+
+  // Buy button response
+  document.querySelectorAll('.product button.buy').forEach(button => {
+    button.addEventListener('click', () => {
+      alert('✅ Purchase complete. Delivery via shadow courier in 24h.');
+    });
+  });
+</script>
+
+</body>
+</html>
