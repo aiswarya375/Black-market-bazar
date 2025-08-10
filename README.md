@@ -6,10 +6,12 @@ Black Market Bazaar is a cyberpunk-themed, futuristic online marketplace concept
 ---
 ## google drive link 
 - demo video and ppt
-  
+  https://drive.google.com/drive/folders/1ymI6Wh-V-GQXtYA7F4cxsY8uCqwOwsYv
+
 ## live at :
 https://aiswarya375.github.io/Black-market-bazar/
-  https://drive.google.com/drive/folders/1ymI6Wh-V-GQXtYA7F4cxsY8uCqwOwsYv
+
+
 ## 🚀 Features
 
 Cyberpunk Neon Theme – Electric blues, glowing pinks, and holographic vibes.
