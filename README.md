@@ -1,11 +1,11 @@
-🕶️ Black Market Bazaar
+## 🕶️ Black Market Bazaar
 
 Black Market Bazaar is a cyberpunk-themed, futuristic online marketplace concept. It showcases fictional high-tech black-market goods with neon-glow visuals and interactive UI elements.
 
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 Cyberpunk Neon Theme – Electric blues, glowing pinks, and holographic vibes.
 
@@ -26,7 +26,7 @@ Hover Effects – Smooth scaling and glowing borders for immersive feel.
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 HTML5 – Structure of the website.
 
@@ -40,7 +40,7 @@ Google Fonts – Orbitron for futuristic typography.
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 black-market-bazaar/
 │── index.html        # Main HTML file
@@ -52,7 +52,7 @@ black-market-bazaar/
 
 ---
 
-🔧 How to Run
+## 🔧 How to Run
 
 1. Clone or download the project folder.
 
@@ -67,7 +67,7 @@ black-market-bazaar/
 
 ---
 
-🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 Add real images with cyberpunk-styled mockups.
 
