@@ -1,4 +1,4 @@
-### 🕶️ Black Market Bazaar
+# 🕶️ Black Market Bazaar
 
 Black Market Bazaar is a cyberpunk-themed, futuristic online marketplace concept. It showcases fictional high-tech black-market goods with neon-glow visuals and interactive UI elements.
 
